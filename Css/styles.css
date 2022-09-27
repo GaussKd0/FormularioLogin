@@ -95,6 +95,9 @@ body *{
     margin-bottom: 10px;
 
 }
+.textfild >input:hover{
+    animation: transform 1s;
+}
 .textfild > input::placeholder{
     color: #0f8;
 }
@@ -111,7 +114,19 @@ body *{
     color: #141726;
     background-color: #0f8;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -13px #00ff9052;
+    box-shadow: 0px 10px 40px -13px #00ff9052; 
+
+}
+.btn-login:hover{
+    animation: transform 1s;
+}
+@keyframes transform{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
 @media only screen  and (max-width: 950px){
     .card-login{
