@@ -60,7 +60,7 @@ body *{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: var(--color6);
+    background: var(--color4);
     border-radius: 20px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
 }
@@ -83,23 +83,24 @@ body *{
     border-radius: 10px;
     padding: 15px;
     background: var(--color10) ;
-    color: var(--color6);
-    font-size: 12pt;
+    color: #0f8;
+    font-size: 15pt;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
     outline: none;
     box-sizing: border-box;
 }
 
 .textfild > label{
-    color: var(--color10);
+    color: var(--color7);
     margin-bottom: 10px;
+    font-size: 13pt;
 
 }
 .textfild >input:hover{
     animation: transform 1s;
 }
 .textfild > input::placeholder{
-    color: #0f8;
+    color: var(--color5);
 }
 .btn-login{
     width: 100%;
